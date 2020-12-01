@@ -1,8 +1,8 @@
-userConverstionType = input("1: inches to mm. 2: or mm to inches. Q to quit. ")
+# userConverstionType = input("1: inches to mm. 2: or mm to inches. Q to quit. ")
 
-converstionTypeInt = int(userConverstionType)
-userNumber = input("Enter number: ")
-userNumberFloat = float(userNumber)
+# converstionTypeInt = int(userConverstionType)
+# userNumber = input("Enter number: ")
+# userNumberFloat = float(userNumber)
 # 1 would convert in to mm
 
 # TODO loop to be able to process multiple calculations
@@ -39,13 +39,13 @@ while True:
         print_calculation(convertedString)
 
     # 2 convert mm to in
-    if converstionTypeInt == 2:
-        print("Convert mm to inches")
-        # 25.4 mm = 1 in
-        # Convert from mm to in
-        # userNumber / 25.4 mm = converted number
-        convertedNumber = userNumberFloat / 25.4
-        convertedString = "{0:.4f} mm is = {1:.4f} inches"
+    # if converstionTypeInt == 2:
+    #     print("Convert mm to inches")
+    #     # 25.4 mm = 1 in
+    #     # Convert from mm to in
+    #     # userNumber / 25.4 mm = converted number
+    #     convertedNumber = userNumberFloat / 25.4
+    #     convertedString = "{0:.4f} mm is = {1:.4f} inches"
     
 
 # print (convertedString.format(userNumberFloat, convertedNumber))
